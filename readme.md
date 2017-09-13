@@ -1,3 +1,14 @@
+Base mode;
+- [x] Create database with a few koalas.
+- [x] Create needed files: index.html in views folder, styles - css, routes -      .js route files. Database file and folder?
+- [ ] Add routes/modules.
+- [ ] Add GET request for koala array.
+- [ ] Add POST request to add koala to array.
+- [ ] Connect to database.
+- [ ] Display on DOM.
+- [ ] Add logo.
+
+Get input values from client using jQuery. Use POST request to add new koala to server, which will update database. Use GET request to retrieve 'koala array' from database. Display on DOM. 
 This must stop:
 ---------------
 ![Nevar again](https://i.makeagif.com/media/8-22-2014/GO_DT4.gif)
