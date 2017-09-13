@@ -45,6 +45,7 @@ function saveKoala( newKoala ){
     data: newKoala,
     success: function( data ){
       console.log( 'got some koalas: ', data );
+      getKoalas();
     } // end success
   }); //end ajax
 }

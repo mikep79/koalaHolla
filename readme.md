@@ -2,9 +2,9 @@ Base mode;
 - [x] Create database with a few koalas.
 - [x] Create needed files: index.html in views folder, styles - css, routes -      .js route files. Database file and folder?
 - [x] Add routes/modules.
-- [ ] Client: Add GET request for koala array.
-- [ ] Client: Add POST request to add koala to array.
-- [ ] Connect to database.
+- [x] Client: Get input vals. Add GET request for koala array.
+- [x] Client: Add POST request to add koala to array.
+- [x] Connect to database.
 - [ ] Display on DOM.
 - [ ] Add logo.
 
