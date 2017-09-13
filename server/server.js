@@ -3,9 +3,11 @@ var app = express();
 var bodyParser = require('body-parser');
 var path = require( 'path' );
 var port = process.env.PORT || 5000;
+var index = require('./routes/index');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('server/public'));
+app.use('/', index);
 
 // Start listening for requests on a specific port
 app.listen(port, function(){
