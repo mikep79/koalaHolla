@@ -31,10 +31,17 @@ function getKoalas(){
     type: 'GET',
     success: function( data ){
       console.log( 'got some koalas: ', data );
+      appendKoalas(data);
     } // end success
   }); //end ajax
   // display on DOM with buttons that allow edit of each
 } // end getKoalas
+
+function appendKoalas(koalaArray) {
+  for (var i=0; i < koalaArray.length; i++) {
+    $('table').append('<tr><td>' + koalaArray[i].name + '</td><td>' + koalaArray[i].gender + '</td><td>' + koalaArray[i].age + '</td><td>' + koalaArray[i].readyForTransfer + '</td><td>' + koalaArray[i].notes + '</td></tr>');
+  }
+}
 
 function saveKoala( newKoala ){
   console.log( 'in saveKoala', newKoala );
