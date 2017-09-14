@@ -39,7 +39,7 @@ function getKoalas(){
 
 function appendKoalas(koalaArray) {
   for (var i=0; i < koalaArray.length; i++) {
-    $('table').append('<tr><td>' + koalaArray[i].name + '</td><td>' + koalaArray[i].gender + '</td><td>' + koalaArray[i].age + '</td><td>' + koalaArray[i].readyForTransfer + '</td><td>' + koalaArray[i].notes + '</td></tr>');
+    $('table').append('<tr><td>' + koalaArray[i].name + '</td><td>' + koalaArray[i].age + '</td><td>' + koalaArray[i].gender + '</td><td>' + koalaArray[i].readyfortransfer + '</td><td>' + koalaArray[i].notes + '</td></tr>');
   }
 }
 

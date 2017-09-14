@@ -13,8 +13,8 @@ router.post('/', function (req, res) {
             console.log('line 13', err);
             res.sendStatus(500);            
         } else {
-            var queryString = 'INSERT INTO koalas (name, gender, age, ready_for_transfer, notes) VALUES ($1, $2, $3, $4, $5)';
-            var values = [koala.name, koala.gender, koala.age, koala.ready_for_transfer, koala.notes];
+            var queryString = 'INSERT INTO koalas (name, age, gender, readyForTransfer, notes) VALUES ($1, $2, $3, $4, $5)';
+            var values = [koala.name, koala.age, koala.gender, koala.readyForTransfer, koala.notes];
             client.query(queryString, values, function(queryErr, resultObj) {
                 done(); 
                 if (queryErr) {
