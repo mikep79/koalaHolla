@@ -2,7 +2,7 @@
 This project was an assignment at Prime. It's a CRUD app using jQuery and PostgreSQL. User can add a Koalla with a name, age, gender, transfer status, and a note to a local database.
 
 <p>
-    <img src="koalla_holla_pic.png" width="200px" />
+    <img src="koalla_holla_pic.png" width="500px" />
 </p>
 
 ## Technology Used
@@ -14,7 +14,8 @@ jQuery, SQL, JavaScript, HTML, CSS.
 Postico, Node.JS.
 
 ### Installing
-Create table using database.sql file in Postico. Run ```npm install``` in terminal.
+* Create table using database.sql file in Postico. 
+* Run ```npm install``` in terminal.
 
 ## Current Features
 * User can add a koalla.
