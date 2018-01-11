@@ -20,6 +20,12 @@ $( document ).ready( function(){
     };
     // call saveKoala with the new obejct
     saveKoala( objectToSend );
+    // clear input fields
+    $('#nameIn').val('');
+    $('#ageIn').val('');
+    $('#genderIn').val('');
+    $('#readyForTransferIn').val('');
+    $('#notesIn').val('');
   }); //end addButton on click
 }); // end doc ready
 
