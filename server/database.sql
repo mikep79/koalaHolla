@@ -1,3 +1,5 @@
+CREATE DATABASE koala_holla;
+
 CREATE TABLE koalas (
     id SERIAL PRIMARY KEY,
     name VARCHAR(10) UNIQUE,
